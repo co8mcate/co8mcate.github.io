@@ -83,9 +83,6 @@ header {
   background: #0c0a3e;
   color: #40f99b;
 }
-/* li {
-  display: inline;
-} */
 
 /* -------- Projects --------- */
 
@@ -124,6 +121,14 @@ header {
 
 .work {
   background: #9d69a3;
+}
+.job-item {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 20px;
+}
+.job-item.job1 {
+  border-bottom: 1px dashed #343434;
 }
 
 /* -------- Education --------- */
