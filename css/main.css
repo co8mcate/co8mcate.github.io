@@ -1,0 +1,79 @@
+/*
+COLOR PALETTE 
+#0C0A3E
+#7B1E7A
+#B33F62
+#F9564F
+#F3C677
+
+or
+
+#40F99B
+#61707D
+#9D69A3
+#F5FBEF
+#E85D75
+
+*/
+
+/* Applies a border to all elements */
+* {
+  border: 1px solid black;
+}
+
+/* -------- Global styles -------- */
+body {
+  color: #343434;
+}
+
+img {
+  width: 300px;
+}
+
+a {
+  color: #40f99b;
+}
+a:hover {
+  text-decoration: none;
+}
+
+/* -------- Profile --------- */
+
+header {
+  background: #0c0a3e;
+  color: #40f99b;
+}
+
+/* -------- Projects --------- */
+
+.projects {
+  background: #61707d;
+}
+.projects a {
+  color: #f5fbef;
+  background: #0c0a3e;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 4px;
+}
+.projects a:hover {
+  background: rgba(12, 10, 62, 50%);
+}
+
+/* -------- Work --------- */
+
+.work {
+  background: #9d69a3;
+}
+
+/* -------- Education --------- */
+
+.education {
+  background: #f5fbef;
+}
+
+/* -------- Contact Info --------- */
+
+footer {
+  background: #e85d75;
+}
