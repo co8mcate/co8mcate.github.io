@@ -26,11 +26,14 @@ body {
   color: #343434;
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
 }
 
 img {
   width: 300px;
+  float: left;
+  margin: 10px;
 }
 
 a {
@@ -39,14 +42,30 @@ a {
 a:hover {
   text-decoration: none;
 }
+h1 {
+  font-family: Signature;
+  font-size: 100px;
+  line-height: 1;
+}
 h2 {
-  margin: 0;
+  font-family: "Caveat", cursive;
+  font-size: 45px;
+  font-weight: 400;
+}
+
+p {
+  line-height: 1.5;
 }
 
 .content-wrap {
   width: 1000px;
   margin: 0 auto;
   padding: 60px 0;
+}
+
+@font-face {
+  font-family: "Signature";
+  src: url("../fonts/KaushanScript-Regular.otf");
 }
 
 /* -------- Profile --------- */
@@ -95,4 +114,5 @@ li {
 
 footer {
   background: #e85d75;
+  text-align: center;
 }
