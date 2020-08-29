@@ -22,6 +22,15 @@ or
 }
 
 /* -------- Global styles -------- */
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 body {
   color: #343434;
   margin: 0;
@@ -81,6 +90,7 @@ li {
 /* -------- Projects --------- */
 
 .projects {
+  color: #f5fbef;
   background: #61707d;
 }
 .project a {
@@ -96,6 +106,18 @@ li {
 }
 .projects .btn:hover {
   background: rgba(12, 10, 62, 50%);
+}
+.project-item {
+  overflow: hidden;
+  border-bottom: 1px dashed #f5fbef;
+  padding: 25px 0;
+}
+.project-item img {
+  float: left;
+  margin-right: 40px;
+}
+.project-item h3 {
+  margin-top: 0;
 }
 
 /* -------- Work --------- */
