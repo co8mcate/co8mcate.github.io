@@ -77,6 +77,16 @@ p {
   src: url("../fonts/KaushanScript-Regular.otf");
 }
 
+h3 {
+  margin-bottom: 0;
+}
+.item-details h3 + p {
+  font-style: italic;
+}
+.item-details h3 ~ p {
+  margin: 0;
+}
+
 /* -------- Profile --------- */
 
 header {
