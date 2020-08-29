@@ -49,14 +49,17 @@ header {
 .projects {
   background: #61707d;
 }
-.projects a {
+.project a {
+  background: #0c0a3e;
+}
+.projects .btn {
   color: #f5fbef;
   background: #0c0a3e;
   text-decoration: none;
   padding: 8px;
   border-radius: 4px;
 }
-.projects a:hover {
+.projects .btn:hover {
   background: rgba(12, 10, 62, 50%);
 }
 
