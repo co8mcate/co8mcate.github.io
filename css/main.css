@@ -136,6 +136,9 @@ header {
 .education {
   background: #f5fbef;
 }
+.course-item {
+  display: inline-block;
+}
 
 /* -------- Contact Info --------- */
 
