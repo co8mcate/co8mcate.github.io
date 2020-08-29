@@ -83,9 +83,9 @@ header {
   background: #0c0a3e;
   color: #40f99b;
 }
-li {
+/* li {
   display: inline;
-}
+} */
 
 /* -------- Projects --------- */
 
@@ -137,4 +137,14 @@ li {
 footer {
   background: #e85d75;
   text-align: center;
+}
+.contact-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.contact-list a {
+  padding: 15px;
+  display: inline-block;
 }
