@@ -18,12 +18,15 @@ or
 
 /* Applies a border to all elements */
 * {
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 /* -------- Global styles -------- */
 body {
   color: #343434;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 img {
@@ -36,12 +39,24 @@ a {
 a:hover {
   text-decoration: none;
 }
+h2 {
+  margin: 0;
+}
+
+.content-wrap {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
 
 /* -------- Profile --------- */
 
 header {
   background: #0c0a3e;
   color: #40f99b;
+}
+li {
+  display: inline;
 }
 
 /* -------- Projects --------- */
@@ -58,6 +73,7 @@ header {
   text-decoration: none;
   padding: 8px;
   border-radius: 4px;
+  display: inline-block;
 }
 .projects .btn:hover {
   background: rgba(12, 10, 62, 50%);
